@@ -4,6 +4,8 @@ import { HiOutlineSearch } from 'react-icons/hi';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { BsPersonFill } from 'react-icons/bs';
 import { MdOutlineKeyboardArrowUp } from 'react-icons/md';
+import AddButton from './ui/bttons/AddButton';
+import Products from './components/product/Products';
 
 function App() {
   return (
@@ -56,6 +58,11 @@ function App() {
           </li>
         </ul>
       </div>
+      <AddButton>
+        Add to cart
+      </AddButton>
+      <Products />
+
     </div>
   );
 }
